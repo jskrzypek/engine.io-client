@@ -890,7 +890,7 @@ Transport.prototype.onClose = function () {
  * Module dependencies
  */
 
-var XMLHttpRequest = _dereq_('xmlhttprequest');
+var XMLHttpRequest = _dereq_('xmlhttprequest-ssl');
 var XHR = _dereq_('./polling-xhr');
 var JSONP = _dereq_('./polling-jsonp');
 var websocket = _dereq_('./websocket');
